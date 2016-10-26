@@ -5,14 +5,19 @@ body {
 }
 .plain-list {
 	list-style: none;
-
 }
 
 #ProfileImage {
-	width: 300px;
+	width: 400px;
 	float: right;
 }
 
 a:hover {
 	color: purple; 
+}
+
+@media (max-width: 400px) {
+	#ProfileImage {
+		width: 120px
+	}
 }
