@@ -1,0 +1,18 @@
+body {
+	background: #afafaf;
+
+	font-family: 'Abhaya Libre', serif;
+}
+.plain-list {
+	list-style: none;
+
+}
+
+#ProfileImage {
+	width: 300px;
+	float: right;
+}
+
+a:hover {
+	color: purple; 
+}
